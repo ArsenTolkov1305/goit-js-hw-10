@@ -37,3 +37,29 @@
 .file-el {
     list-style: none;
 }
+        .timer {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .field {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 24px;
+        }
+        .value {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        #datetime-picker, button {
+            justify-content: center;
+            margin-left: auto   ;
+            margin-right: auto;
+        }
